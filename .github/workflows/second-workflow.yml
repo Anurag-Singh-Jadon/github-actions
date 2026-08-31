@@ -1,0 +1,14 @@
+name:second workflow
+on: push
+jobs:
+     hello-job:
+       runs-on: windows-latest
+       steps:
+           - name: "welcome"
+             run: echo "welcome to the code step by step"
+
+     boy-job:
+       runs-on: windows-latest
+       steps:
+           - name: "bye"
+             run: echo "bye to the code step by step"
